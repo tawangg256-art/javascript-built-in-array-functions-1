@@ -7,7 +7,9 @@ const todos = [
 ];
 
 function getCompletedTodo(todos) {
-  // Start coding here
+  const result = todos.filter((todo) => todo.completed);
+  console.log(result);
+  return result;
 }
 
 getCompletedTodo(todos);
